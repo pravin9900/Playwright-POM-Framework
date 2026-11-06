@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["node", "@playwright/test"],
+    "skipLibCheck": true
+  }
+}
+
+//kapruka.com - Web application
+//Actions - click, fill, scroll - file - common actions - testing XXX - basefile - .ts extension - BasePage.ts (parent)
+//page - readonly - set once, never change again
+//inheritance - LoginPage.ts (child) extends BasePage.ts (so that it can use methods of BasePage)
+//BasePage, constructor -> LoginPage.ts (object)
+//BasePage - www.kapruka.com - QAEngineering //abstraction // abstract methods
+//BasePage - www.amazon.com - Hercules
+//export / import
+//Controls - radio button, text box, table
+//Automation testing - validate the things in file
